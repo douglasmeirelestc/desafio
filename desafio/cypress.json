@@ -1,0 +1,5 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl" : "https://www.smiles.com.br/home",
+    "defaultCommandTimeout" : 50000
+}
