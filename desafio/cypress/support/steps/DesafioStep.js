@@ -17,7 +17,6 @@ And("insiro a data de origem e destino", () => {
 
 And("busco pelo voo", () => {
     desafio.ClicarBuscarVoo();
-    desafio.VerificarMensagemDeErro();
 });
 
 And("seleciono a primeira opcao de voo disponivel por milhas", () => {
@@ -29,17 +28,9 @@ And("Scrollo a pagina até o final", () => {
 });
 
 Then("valido o resumo do pedido", () => {
-   
-});
-
-And("valido a mensagem exibida no email", () => {
-   
-});
-
-Then("valido o retorno do servico", () => {
-    
+    desafio.ValidarValor();
 });
 
 And("aceito os termos de aceite", () => {
-   
+    desafio.AceitarTermosDeAceite();
 });
