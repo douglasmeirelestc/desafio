@@ -1,8 +1,7 @@
 #language:pt
-@login
+
 Funcionalidade: Login
 
-    @login-sucesso
     Cenario: Realizar login com sucesso
         Dado que acesso o site smiles
         Quando insiro origem "São Paulo (GRU)" e destino "Rio de Janeiro (RIO)"
